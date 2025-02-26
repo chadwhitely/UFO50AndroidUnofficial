@@ -23,12 +23,12 @@ Currently, up to version 1.6.2.4 is supported. Newer versions of the game may or
 - UFO 50 must have a save on your device. This means you must have started the game at least once before you attempt to upload your saves.
 
 ### Backup (Android -> Computer)
-This will copy your save files from your device and put them in the save folder.
+Run one of the following scripts to copy your save files from your device and into the save folder.
 - Windows: run `backup_saves_windows.bat`
 - Linux: run `backup_saves_linux`
 
 ### Restoration (Computer -> Android)
-To restore your save, place your save files into the save folder and run restore_saves_windows.bat if you're using Windows or restore_saves_unix if you're not.
+To restore your save, place your save files into the save folder and run one of the following scripts
 - Windows: run `upload_saves_windows.bat`
 - Linux: run `upload_saves_linux`
 
