@@ -19,9 +19,9 @@ Currently, up to version 1.6.2.4 is supported. Newer versions of the game may or
 
 ## Save Management
 Before you can manage save files, make sure you have enabled Developer Options on your device and allowed USB or Wi-Fi debugging. Make sure you have run UFO 50 at least once before you attempt to upload your saves.
-To backup your save, run backup_saves_windows.bat if you're using Windows or backup_saves_unix if you're not.
+To backup your save, run `backup_saves_windows.bat` if you're using Windows or `backup_saves_linux` if you're not.
 This will copy your save files from your device and put them in the save folder.
-To restore your save, place your save files into the save folder and run restore_saves_windows.bat if you're using Windows or restore_saves_unix if you're not.
+To restore your save, place your save files into the save folder and run `upload_saves_windows.bat` if you're using Windows or `upload_saves_linux` if you're not.
 
 ## Notes
 If you have UFO 50 working on PortMaster, open ufo50.port in an archive manager like 7-zip and use the game.droid and options.ini files in that directory.
